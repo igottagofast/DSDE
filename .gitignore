@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (keep raw & large data out of git)
+data/01_raw/*
+!data/01_raw/.gitkeep
+data/02_intermediate/*
+!data/02_intermediate/.gitkeep
+data/03_processed/*
+!data/03_processed/.gitkeep
+
+# Trained models and large artifacts
+outputs/models/*
+!outputs/models/.gitkeep
+
+# Mac OS metadata
+.DS_Store
+
+# backup file
+*.bak
