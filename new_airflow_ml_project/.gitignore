@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Secrets
+.env
+.venv/
+venv/
+env/
+ENV/
+airflow_home/
+
+# Airflow logs
+logs/*
+!logs/.gitkeep
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data files (keep raw & generated data out of git)
+data/01_raw/*
+!data/01_raw/.gitkeep
+data/02_intermediate/*
+!data/02_intermediate/.gitkeep
+data/03_processed/*
+!data/03_processed/.gitkeep
+
+# Trained models and evaluation artifacts
+outputs/models/*
+!outputs/models/.gitkeep
+outputs/evaluation/*
+!outputs/evaluation/.gitkeep
+
+# Mac OS metadata
+.DS_Store
