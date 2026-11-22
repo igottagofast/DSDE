@@ -34,13 +34,13 @@ ENV/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# Data files (keep raw & large data out of git)
-data/01_raw/*
-!data/01_raw/.gitkeep
-data/02_intermediate/*
-!data/02_intermediate/.gitkeep
-data/03_processed/*
-!data/03_processed/.gitkeep
+# Data files (tracked in git for reproducibility)
+# data/01_raw/*
+# !data/01_raw/.gitkeep
+# data/02_intermediate/*
+# !data/02_intermediate/.gitkeep
+# data/03_processed/*
+# !data/03_processed/.gitkeep
 
 # Trained models and large artifacts
 outputs/models/*
